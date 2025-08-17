@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Kortz';
+  src: url('/fonts/kortz.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Wushu';
+  src: url('/fonts/wushu.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NuttyNoises';
+  src: url('/fonts/nuttynoises.woff2') format('woff2');
+  font-display: swap;
+}
+
+:root {
+  --bg-overlay: rgba(10, 0, 30, 0.75);
+}
+
+html, body, #__next { height: 100%; background: #0b0b0b; color: white; }
+
+a { color: #00ffff; }
+a:hover { text-decoration: underline; }
